@@ -38,7 +38,7 @@ a{
 }
 
 #navbar .topbar .logo a:hover{
-    color: black;    
+    color: rgb(255, 255, 255);    
 }
 
 #navbar .topbar .logo h1{
@@ -46,11 +46,11 @@ a{
 }
 
 #navbar .topbar a{
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 #navbar .topbar a:hover{
-    color: white;
+    color: rgb(175, 175, 175);
 }
 
 
@@ -412,8 +412,6 @@ a{
 
 #contact-form{
     text-align: left;
-    padding: 50px 0;
-
 }
 
 #contact-form form{
@@ -478,15 +476,15 @@ a{
 .contact-section {
     display: flex;
     margin: 0 auto;
-    width: 1000px;
+    width: 100%;
     gap: 30px;
+    justify-content: center;
+    padding: 50px 30px;
 }
+
 
 .contact-section .detail{
     text-align: left;
-    padding: 50px 0;
-
-    
 }
 
 
@@ -504,14 +502,15 @@ a{
     margin: 0 auto;
     height: 150px;
     padding: 30px;
+    color: white;
 
 }
 #footer .footbar a{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 #footer .footbar a:hover {
-    color: white;
+    color: rgb(175, 175, 175);
 }
 
 
@@ -524,9 +523,563 @@ a{
     text-align: left;
     margin: 0 auto;
     padding: 30px;
+    color: rgb(255, 255, 255);
+}
+
+
+/* Home */
+@media only screen and (max-width: 600px) {
+    #header-section .container{
+    height: 210px;
+    align-content: center;
+    color: white;
+    text-align: center;
+    padding: 0 10px;
+    line-height: 16px;
+    max-width: 600px;
+
+}
+#header-section .container .btn{
+    background-color: aqua;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+#header-section .container .btn:hover{
+    color: white;
+    background-color: black;
+}
+#header-section .container .subheading{
+    font-size: 12px;
+    margin: 0;
+}
+#header-section .container .heading{
+    font-size: 18px;
+    margin: 0;
+}
+#header-section .container .paragraph{
+    font-size: 12px;
+    margin: 0;
+}
+#navbar .topbar{
+    display: flex;
+    flex-direction: column;
+}
+#navbar nav ul{
+    flex-direction: column;
+}
+
+#navbar {
+    text-align: center;
+
+}
+img {
+    width: 100%;
+}
+#image-with-text {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+#image-with-text .content{
+    align-content: center;
+    padding: 20px;
 }
 
 
 
+#image-with-text .image {
+    width: 100%;
+    height: auto;
+}
+#image-with-text .content h1{
+    font-size: 18px;
+}
+#image-with-text .content p{
+    font-size: 12px;
+}
+#rich-text {
+    padding: 20px;
+}
+#rich-text .heading{
+    font-size: 18px;
+    margin: 0;
+}
+#rich-text .sub-heading{
+    font-size: 14px;
+}
+#rich-text .paragraph{
+    font-size: 12px;
+}
+#rich-text-background{
+    height: auto;
+    align-content: center;
+}
+#rich-text-background .content {
+    padding: 20px;
+}
+#rich-text-background .content .heading{
+    font-size: 18px;
+}
+#rich-text-background .content .paragraph{
+    font-size: 12px;
+}
+#service-heading {
+    width: auto;
+    padding: 20px;
+}
+
+#services {
+    width: auto;
+    flex-direction: column;
+    gap: 20px;
+}
+#services .box {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    padding: 20px 20px;
+}
+#services-2 {
+    width: auto;
+    flex-direction: column;
+    gap: 20px;
+}
+#services-2 .box-2 {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    padding: 20px 20px;
+}
+
+
+#image-with-service {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    margin: 0 auto;
+}
+.main-service-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    padding: 20px 10px;
+    align-items: center;
+    text-align: center;
+}
+.Testimonials-heading {
+    width: auto;
+    font-size: 14px;
+}
+#testimonials {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#testimonials .section {
+    width: 100%;
+}
+
+.inquiry h1{
+    font: 24px;
+}
+#footer .footbar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+    padding: 30px;
+    align-items: center;
+}
+.copyright {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+
+}
+
+#services-page .box {
+    width: 100%;
+}
+#services-page {
+    max-width: 100%;
+    flex-direction: column;
+}
+#services-page-2 {
+    max-width: 100%;
+    flex-direction: column;
+}
+#services-page-2 .box-2 {
+    width: 100%;
+}
+#image-with-text-vision .image {
+    width: 100%;
+    height: auto;
+}
+#image-with-text-vision {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+#image-with-text-mission .image {
+    width: 100%;
+    height: auto;
+}
+#image-with-text-mission {
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 100%;
+}
+.contact-section {
+    flex-direction: column;
+    width: 100%;
+    padding: 30px;
+}
+#contact-form .username {
+    width: 90%;
+}
+#contact-form .email {
+    width: 90%;
+}
+#contact-form .phone-number {
+    width: 90%;
+}
+#contact-form .message {
+    width: 90%;
+}
+
+#contact-banner .heading{
+    font-size: 28px;
+}
+
+#contact-banner .sub-heading{
+    font-size: 14px;
+}
+
+#vision-banner .heading{
+    font-size: 28px;
+}
+#vision-banner .sub-heading{
+    font-size: 14px;
+}
+
+#service-banner .heading{
+    font-size: 28px;
+}
+#service-banner .sub-heading{
+    font-size: 14px;
+}
+
+}
+
+/* @media only screen and (max-width: 1200px) */
+
+
+@media screen and (min-device-width: 990px) and (max-device-width: 1200px) {
+    #image-with-text .image {
+        width: 60%;
+        height: auto;
+    }
+    h1, h2, h3 {
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+    #image-with-text p {
+        font-size: 14px;
+    }
+    #image-with-text {
+        max-width: 100%;
+    }
+    #service-heading {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    #rich-text {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+    #rich-text-background .content {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    #services {
+        max-width: 100%;
+        gap: 20px;
+    }
+    #services-2 {
+        max-width: 100%;
+    }
+    #testimonials {
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    #services-page {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+    #services-page-2 {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+    #services-page-2 {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+    .contact-section {
+        display: flex;
+        margin: 0 auto;
+        width: 100%;
+        gap: 30px;
+        justify-content: center;
+        padding: 50px 30px;
+    }
+    #image-with-text-vision {
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        padding: 30px 10px;
+    }
+    
+    #image-with-text-vision .content{
+        align-content: center;
+        padding: 0 40px;
+        width: 50%;
+    }
+    
+    #image-with-text-vision .image {
+        width: 50%;
+        height: auto;
+    }
+    #image-with-text-mission {
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        padding: 30px 10px;
+    }
+    
+    #image-with-text-mission .content{
+        align-content: center;
+        padding: 0 40px;
+    }
+    
+    #image-with-text-mission .image {
+        width: 50%;
+        height: auto;
+    }
+    .copyright {
+        width: 100%;
+    }
+}
+@media screen and (min-device-width: 769px) and (max-device-width: 989px) {
+    #image-with-text .content {
+        align-content: center;
+        padding: 0 40px;
+        width: 100%;
+    }
+    #image-with-text .image {
+        width: auto;
+        height: auto;
+        align-self: center;
+        padding-bottom: 20px;
+    }
+    #image-with-text {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    #service-heading {
+        width: 100%;
+        padding: 20px;
+    }
+    #services {
+        max-width: 100%;
+        gap: 20px;
+    }
+    #services-2 {
+        max-width: 100%;
+        gap: 20px;
+    }
+    .container {
+        max-width: 100%;
+    }
+    #image-with-service {
+        width: 100%;
+        flex-direction: column;
+    }
+    #testimonials {
+        width: 100%;
+        gap: 10px;
+        padding-bottom: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .Testimonials-heading {
+        width: 100%;
+    }
+    #rich-text {
+        margin: 0 auto;
+        max-width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+    #rich-text-background .content {
+        max-width: 100%;
+        padding: 20px;
+    }
+    #footer .footbar {
+        width: 100%;
+        gap: 100px;
+        padding: 20px;
+    }
+    #services-page {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        gap: 10px;
+    }
+    #services-page-2 {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        gap: 10px;
+        margin-top: 50px;
+    }
+    .copyright {
+        width: 100%;
+        text-align: center;
+    }
+    #image-with-text-vision .image {
+        width: auto;
+        height: auto;
+        align-self: center;
+        padding-bottom: 20px;
+    }
+    #image-with-text-vision {
+        max-width: 100%;
+        flex-direction: column;
+    }
+    #image-with-text-mission {
+        max-width: 100%;
+        flex-direction: column-reverse;
+    }
+    #image-with-text-mission .image {
+        width: auto;
+        height: auto;
+        align-self: center;
+    }
+
+}
+@media screen and (min-device-width: 601px) and (max-device-width: 768px) {
+    #image-with-text {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #image-with-text .image {
+        width: auto;
+        height: auto;
+        align-self: center;
+        padding-bottom: 20px;
+    }
+    #rich-text {
+        max-width: 100%;
+        padding: 20px;
+    }
+    #rich-text-background .content {
+        max-width: 100%;
+        padding: 20px;
+    }
+    #service-heading {
+        width: 100%;
+        padding: 20px;
+    }
+    #services {
+        max-width: 100%;
+        padding: 10px;
+        gap: 0px;
+    }
+    #services-2 {
+        max-width: 100%;
+        padding: 10px;
+        gap: 0px;
+    }
+    .container {
+        width: 100%;
+    }
+    #image-with-service {
+        width: 100%;
+        flex-direction: column;
+    }
+    .Testimonials-heading {
+        width: 100%;
+    }
+    #testimonials {
+        width: 100%;
+        gap: 10px;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+    #footer .footbar {
+        width: 100%;
+        gap: 30px;
+        height: 450px;
+        padding: 30px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .copyright {
+        width: 100%;
+        text-align: center;
+    }
+    #services-page {
+        width: 100%;
+        padding: 10px;
+        margin: 0 auto;
+        display: flex;
+        gap: 0px;
+    }
+    #services-page-2 {
+        margin-top: 50px;
+        width: 100%;
+        padding: 10px;
+        margin: 0 auto;
+        display: flex;
+        gap: 0px;
+    }
+    #image-with-text-vision {
+        width: 100%;
+        flex-direction: column;
+    }
+    #image-with-text-vision .image {
+        width: auto;
+        height: auto;
+        align-self: center;
+        padding-bottom: 20px;
+
+    }
+    #image-with-text-mission {
+        max-width: 100%;
+        flex-direction: column-reverse;
+    }
+    #image-with-text-mission .image {
+        width: auto;
+        height: auto;
+        align-self: center;
+    }
+
+
+}
 
 
